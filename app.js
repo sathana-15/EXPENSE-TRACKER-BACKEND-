@@ -6,7 +6,7 @@ app.use(express.json());      //middle ware which is used to pass the data
 const {v4:uuidv4}=require('uuid');
 
 
-mongoose.connect("mongodb://localhost:27017/expenses").then(()=>{
+mongoose.connect("mongodb+srv://sathanard2023cse:sathu_2828@cluster0.7wxev.mongodb.net/expenses").then(()=>{
 console.log("Connected to MongoDB");   //database connection
 });
 
